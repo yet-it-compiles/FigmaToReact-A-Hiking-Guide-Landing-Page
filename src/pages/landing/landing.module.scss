@@ -1,25 +1,33 @@
 .container {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-        
+    position: relative;
+    left: 20%;
+    top: 4vh;
+
+    .design {
+        width: 70px;
+        height: 2px;
+        background-color: #FBD784;
+    }
     
     p {
         color: #FBD784;
         font-size: 18px;
         font-family: Gilroy;
         font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 6px;
     }
 
     h1 {
         color: white;
-        font-size: 88px;
-        font-family: Chronicle Display;
-        font-weight: 600;
+        font-size: 88px;     
     }
 
     button {
+        font-size: 18px;
+        font-family: Gilroy;
+        font-weight: 700;
         color: white;
         border-style: none;
         background: transparent;

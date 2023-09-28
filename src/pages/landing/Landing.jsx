@@ -21,10 +21,14 @@ const Landing = () => {
   return (
     <main className={styles.container}>
       <div>
-        <p>A Hiking Guide</p>
+        <section>
+          <p>A Hiking Guide</p>
+          <div className={styles.design}></div>
+        </section>
+        
         <h1>Be Prepared For The <br/> Mountains And Beyond!</h1>
-        <button>scroll down <BsArrowDown/></button>
       </div>
+      <button>scroll down <BsArrowDown/></button>
     </main>
   );
 };
