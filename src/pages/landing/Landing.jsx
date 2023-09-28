@@ -6,6 +6,7 @@
  * @exports Landing
  */
 import styles from './landing.module.scss';
+import {BsArrowDown} from "react-icons/bs"
 
 /**
  * @component Landing
@@ -22,7 +23,7 @@ const Landing = () => {
       <div>
         <p>A Hiking Guide</p>
         <h1>Be Prepared For The <br/> Mountains And Beyond!</h1>
-        <button>scroll down</button>
+        <button>scroll down <BsArrowDown/></button>
       </div>
     </main>
   );

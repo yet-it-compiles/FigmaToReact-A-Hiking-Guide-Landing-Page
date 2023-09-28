@@ -5,6 +5,7 @@
  *  
  * @exports Header
  */
+import { CgProfile } from "react-icons/cg"
 
 import styles from './header.module.scss';
 
@@ -34,7 +35,7 @@ const Header = () => {
         </ul>
       </section>
 
-      <button type="submit">Account</button>
+      <button type="submit"><CgProfile/> Account</button>
     </nav>
   );
 };
