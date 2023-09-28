@@ -5,6 +5,10 @@
  *  
  * @exports App
  */
+import Header from "./layout/header/Header"
+import Landing from "./pages/landing/Landing";
+
+import styles from "./app.module.scss"
 
 /**
  * @component App
@@ -15,9 +19,13 @@
  */
 const App = () => {
   return (
-    <>
-      <h1>App Page</h1>
-    </>
+    <main className={styles.container}>
+    {/* <h1>App Page</h1> */}
+    <Header/>
+    <Landing/>
+      
+    </main>
   );
 };
+
 export default App;
