@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+
+    color: white;
+
+    ul {
+        display: flex;
+        gap: 40px;
+        list-style-type: none;
+    }
+
+    button {
+        color: white;
+        font-weight: bold;
+        background-color: transparent;
+        border-style: none;
+    }
+}

@@ -19,7 +19,11 @@ import styles from './landing.module.scss';
 const Landing = () => {
   return (
     <main className={styles.container}>
-      <h1>Landing Page</h1>
+      <div>
+        <p>A Hiking Guide</p>
+        <h1>Be Prepared For The <br/> Mountains And Beyond!</h1>
+        <button>scroll down</button>
+      </div>
     </main>
   );
 };

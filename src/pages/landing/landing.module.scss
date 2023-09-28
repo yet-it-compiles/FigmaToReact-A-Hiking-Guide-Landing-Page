@@ -1,0 +1,26 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+    p {
+        color: #FBD784;
+        font-size: 18px;
+        font-family: Gilroy;
+        font-weight: 800;
+    }
+
+    h1 {
+        color: white;
+        font-size: 88px;
+        font-family: Chronicle Display;
+        font-weight: 600;
+    }
+
+    button {
+        color: white;
+        border-style: none;
+        background: transparent;
+    }
+}

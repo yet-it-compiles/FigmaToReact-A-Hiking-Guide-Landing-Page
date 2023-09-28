@@ -17,7 +17,12 @@ import styles from './side-nav.module.scss';
 const SideNav = () => {
   return (
     <nav className={styles.container}>
-      <h1>SideNav Page</h1>
+      <ul>
+        <li>Start</li>
+        <li>01</li>
+        <li>02</li>
+        <li>03</li>
+      </ul>
     </nav>
   );
 };
