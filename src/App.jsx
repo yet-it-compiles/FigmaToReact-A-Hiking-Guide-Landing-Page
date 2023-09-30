@@ -7,6 +7,7 @@
  */
 import Header from "./layout/header/Header"
 import Landing from "./pages/landing/Landing";
+import SideNav from "./layout/side-nav/SideNav"
 
 import styles from "./app.module.scss"
 
@@ -19,12 +20,11 @@ import styles from "./app.module.scss"
  */
 const App = () => {
   return (
-    <main className={styles.container}>
-    {/* <h1>App Page</h1> */}
-    <Header/>
-    <Landing/>
-      
-    </main>
+    <div className={styles.container}>
+      <Header/>
+      <Landing/>
+      <SideNav/>
+    </div>
   );
 };
 
